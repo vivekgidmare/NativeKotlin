@@ -4,7 +4,10 @@ import app
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = Proxy().proxyHello()
+        let value = Sample().checkMe()
+        label.text = Proxy().proxyHello()+String(value)
+        
+        print("Sample Value:",value)
     }
 
     override func didReceiveMemoryWarning() {
