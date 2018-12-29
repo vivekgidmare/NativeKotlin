@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":app" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false" isTestModule="false" externalProjectId=":app">
+        <sourceSets>
+          <sourceSet>Native.app.commonMain</sourceSet>
+        </sourceSets>
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar:/Users/vivekgidmare/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.10/1b19d99229dcedad7caf50534dce38fe82845269/kotlin-stdlib-common-1.3.10.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d085a5b024936a178b613d4cdabb9109/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4ae533c74ee1f145f8df8c73e553249e/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/646f30581dd73bcedf3bd10bff080335/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/c5afd022ff7c3756a161ecfe0a5e1e87/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/2787a5cd4c52a392bd7ea2de49161999/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/07871fd452d57ecda34466a9af87a637/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/ca5ddff0a292c822c3a0afbb415b740d/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/122f6373ff4a29552f1cf833825cf4b6/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0ced1b0709ec9cc9c13345d7461a7eb1/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/b86834a17f728b2dd4f6049b65e38e57/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/bbf99db839cc6264b5073539defc8041/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/a183defae1fd83ea751b9e91e2e1cc04/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/a4e1e59b23b913ed16f9139da7ae87ed/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/350ea2bdff99b7a7d17d9ac969383c8d/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/ef6805b7db8feb5af7dc1e4be46baf6f/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/86709d32513a33983606036924b659e1/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/1ddcca1726428a09bbd39878995be7e0/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/0df1d84f3c4dbf19290eec1ef7b0c5af/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6759aaf459a6427f5e76b30fd31bea5e/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/259231f1dac038e6ffe94b8b1dc2fc29/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/0626c3c3d2ee0abae50c02f08f77b690/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/bb557d2be22d499478b345f5c896e810/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/cb67afe230b206969b927e59cd586130/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/ab6cb33bc248fb493d41d78afac5c6e4/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/c7ee0bac98f72271dd6095a89a7d5df5/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/4288f3b990c054509fea9057dab510aa/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar:/Users/vivekgidmare/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/54aad5e2896dc449811b59d1b1232e4c/jars/classes.jar:/Users/vivekgidmare/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar:/Users/vivekgidmare/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar:/Users/vivekgidmare/Data/code/android/androidsdk/platforms/android-28/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="app_debug" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.10/b714dd6deb5282a6545e4183d9270860a171f08e/kotlin-android-extensions-1.3.10.jar" />
+            </array>
+          </option>
+          <option name="multiPlatform" value="true" />
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>
