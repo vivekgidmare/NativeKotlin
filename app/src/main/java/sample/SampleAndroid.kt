@@ -18,9 +18,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
         val helloMessage = hello()
         val checked = Sample().checkMe()
-        setContentView(R.layout.activity_main)
         Log.d("TAG", "$checked::$helloMessage")
         tv_hello.text = helloMessage
     }
